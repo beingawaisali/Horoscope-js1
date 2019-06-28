@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+        <header>
+            <h1>HOROSCOPE</h1>
+            <p>BY CLICKING ON YOUR ZODIAC SIGN YOU CAN SEE YOUR TODAY'S ASTROLOGY</p>
+        </header>
+        <div id="add-info">
+            <p>SEE YOUR HOROSCOPE</p>
+            <input type="text" id="name" placeholder="NAME">
+            <input type="number" id="date" placeholder="DATE" min="1" max="31">
+            <input type="number" id="month" placeholder="MONTH" min="1" max="12">
+            <div>
+            <button onclick="showFortune()">Find Your Forntune</button>
+            </div>
+        </div>
+        <div id="fortune">
+            <h2 id="zodiac-sign"></h2>
+            <p id="para"></p>
+        </div>
+        <!-- <audio controls autoplay>
+            <source src="THIS_CARDS_TRICK_WILL_READ_YOUR_MIND.mp3" type="audio/ogg">
+        </audio> -->
+    </section>
+    
+</body>
+</html>
