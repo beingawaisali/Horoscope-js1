@@ -1,10 +1,11 @@
 body{
     margin: 0px;
-    background-image: url(desktop-background.gif);
-    background-size: 100%;
-    /* background-position: center; */
+    background-image: url(images/desktop-background.gif);
+    background-size: cover;
+    background-position: center;
     font-family: Arial, Helvetica, sans-serif;
-    Background-position; center;
+position: relative;
+    height: 100vh;
 }
 
 header{
@@ -66,6 +67,7 @@ input[type= "number"]{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #zodiac-sign{
@@ -80,4 +82,12 @@ input[type= "number"]{
     padding: 5px;
     font-size: 1.2em;
     text-transform: uppercase;
+    margin: 0px;
+}
+
+@media only screen and (min-width:300px) and (max-width:600px){
+    body{
+        background-image: url(images/mobile.jpg);
+        background-position: center;
+    }
 }
