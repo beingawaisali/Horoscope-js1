@@ -7,8 +7,8 @@ function showFortune(){
     let fortune = document.getElementById('para');
     
 
-    var audio = new Audio('horror-music.mp3');
-    audio.play();
+    //var audio = new Audio('horror-music.mp3');
+    //audio.play();
 
     if ((month == 1 && date >= 21 || month == 2 && date <= 19)){
         zodiacSign.innerHTML = (name + " YOU ARE AQUARIUS");
